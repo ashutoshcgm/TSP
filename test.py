@@ -10,7 +10,7 @@ def read_coords(path):
             coords.append(line)
     return coords
 
-# But we are taking dataset from coord.txt file not using this function as you can see in the main function below
+# But we are taking dataset from dataset.txt file not using this function as you can see in the main function below
 def generate_random_coords(num_nodes):
     return [[random.uniform(-1000, 1000), random.uniform(-1000, 1000)] for i in range(num_nodes)]
 
